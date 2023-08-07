@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  width: 100%;
+}
+header {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(81, 59, 33);
+  border-bottom: 6px solid rgb(234, 167, 23);
+  overflow: hidden;
+}
+nav {
+  height: 80px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+ul {
+  width: 600px;
+  display: flex;
+}
+nav ul li {
+  font-size: 30px;
+  list-style: none;
+  color: rgb(158, 88, 88);
+  width: 150px;
+  height: 80px;
+}
+a {
+  display: block;
+  height: 80px;
+  color: white;
+  border-right: 2px solid rgb(247, 244, 238);
+  border-radius: 3px;
+  text-align: center;
+  line-height: 80px;
+
+}
+a:hover {
+  background-color: orange;
+  transition: all .5s;
+}
+/* ##################################################################### */
+
+#sec1 {
+  height: 800px;
+  width: 100%;
+}
+#sec1 img {
+  width: 100%;
+  height: 800px;
+}
+.c1 {
+  position: fixed;
+  top: 200px;
+  border-radius: 8px;
+  width: 70px;
+  height: 70px;
+  background-color: red;
+  transition: all 1s;
+}
+.c2 {
+  position: fixed;
+  top: 300px;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(57, 124, 233);
+  border-radius: 8px;
+  transition: all 1s;
+}
+.c3 {
+  position: fixed;
+  border-radius: 8px;
+  top: 400px;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(19, 252, 89);
+  transition: all 1s;
+}
+.c1:hover {
+
+ 
+  border-radius: 8px;
+  width: 200px;
+  height: 70px;
+  background-color: red;
+
+}
+.c2:hover {
+
+  
+  width: 200px;
+  height: 70px;
+  background-color: rgb(57, 124, 233);
+  border-radius: 8px;
+
+}
+.c3:hover {
+
+  border-radius: 8px;
+
+  width: 200px;
+  height: 70px;
+  background-color: rgb(19, 252, 89);
+
+}
+
+/* ############################################################## */
+.sec2 {
+  width: 100%;
+  height: 350px;
+  background-color: darkgray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sec2 .mydiv {
+  width: 30%;
+  height: 300px;
+  box-sizing: border-box;
+}
+.sec2 .mydiv2 {
+  width: 30%;
+  height: 300px;
+  box-sizing: border-box;
+}
+.sec2 .mydiv3 {
+  width: 30%;
+  height: 300px;
+  box-sizing: border-box;
+}
+.sec2 .mydiv h1 {
+  width: 100%;
+  height: 100px;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 25px;
+  background-color: red;
+  color: white;
+  border-radius: 8px 8px 0 0;
+}
+.sec2 .mydiv2 h1 {
+  width: 100%;
+  height: 100px;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 25px;
+  background-color: rgb(26, 170, 64);
+  color: white;
+  border-radius: 8px 8px 0 0;
+}
+.sec2 .mydiv3 h1 {
+  width: 100%;
+  height: 100px;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 25px;
+  background-color: rgb(8, 0, 255);
+  color: white;
+  border-radius: 8px 8px 0 0;
+}
+.sec2 .mydiv p {
+  font-size: 20px;
+  background-color: wheat;
+  padding: 20px;
+  border-radius: 0 0 8px 8px;
+}
+.sec2 .mydiv2 p {
+  font-size: 20px;
+  background-color: wheat;
+  padding: 20px;
+  border-radius: 0 0 8px 8px;
+}
+.sec2 .mydiv3 p {
+  font-size: 20px;
+  background-color: wheat;
+  padding: 20px;
+  border-radius: 0 0 8px 8px;
+}
+.sec3 {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(100, 97, 97);
+  display: flex;
+  justify-content: space-between;
+}
+.sec3 p {
+  color: white;
+  font-size: 30px;
+  width: 60%;
+  margin-top: 2%;
+ padding-left: 3%;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(139, 137, 137);
+}
+marquee {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
